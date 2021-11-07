@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 40px;
+    line-height: 40px;
+    background-color: cornflowerblue;
+}
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+li {
+    list-style-type: none;
+}
+#container {
+    width: 600px;
+    margin: 0 auto;
+    min-height: calc(100vh-80px);
+}
+.lib{
+    background-color: skyblue;
+}
+.lib li{
+     display: inline;
+}
+.lib li a {
+    display: inline-block;
+    text-align: center;
+    padding: 5px 20px;
+}
+.content_area {
+    background-color: lightsteelblue;
+}
+footer {
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    background-color: lightskyblue;
+}

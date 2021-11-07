@@ -1,0 +1,19 @@
+#visible, #hidden, #scroll, #auto {
+    width: 400px;
+    height: 150px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+#visible {
+    overflow: visible;
+}
+#hidden {
+    overflow: hidden;
+}
+#scroll {
+    overflow: scroll;
+}
+#auto {
+    overflow: auto;
+}

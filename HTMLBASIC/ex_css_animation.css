@@ -1,0 +1,24 @@
+@keyframes sample {
+    0% {
+        background-color: firebrick;
+        transform: translate(0, 0);
+    }
+    50% {
+        background-color: cornflowerblue;
+        transition: translate(30px, 20px);
+    }
+    100% {
+        background-color: forestgreen;
+        transition: translate(0,0);
+    }
+}
+p {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background: firebrick;
+
+    animation-name: sample;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}

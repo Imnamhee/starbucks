@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>알바선배</title>
+    <!-- 사용자 정의 css, js -->
+    <link rel="stylesheet" href="main.css">
+    <script defer src="main.js"></script>
+
+    <!-- Google Fonts 나눔고딕 등록 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+    <!-- Google Material Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+
+<body>
+    <header>
+        <div class="inner">
+            <a href="/" class="logo">
+                <img src="./logo.png" alt="logo">
+            </a>
+        </div>
+
+        <div class="sub-menu">
+            <ul class="menu">
+                <li>
+                    <a href="/signin">로그인</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">회원가입</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="search">
+            <input type="text">
+            <div class="material-icons">search</div>
+        </div>
+
+        <nav>
+            <ul class="main-menu">
+                <li class="item">
+                    <a href="javascript:void(0)"><div class="item__name">추천합니다!</div></a>
+                </li>
+                <li class="item">
+                    <a href="javascript:void(0)"><div class="item__name">대타구해요</div></a>
+                </li>
+                <li class="item">
+                    <a href="javascript:void(0)"><div class="item__name">후기및경험담</div></a>
+                </li>
+                <li class="item">
+                    <a href="javascript:void(0)"><div class="item__name">이력서</div></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="container">
+        <div class="recomend">
+            <h2 class="title">추천인 순위</h2>
+            <div class="list"></div>
+        </div>
+        <div class="popular">
+            <h2 class="title">인기글</h2>
+            <div class="list"></div>
+        </div>
+        <div class="cover">
+            <h2 class="title">대타 인기글</h2>
+            <div class="list"></div>
+        </div>
+    </div>
+</body>
+
+</html>

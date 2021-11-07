@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#wrap {
+    display: flex;
+    width: 90%;
+
+    flex-wrap: wrap;
+
+    /* align-content: stretch; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-between; */
+    align-content: space-around;
+    
+    height: 500px;
+    margin: 0 auto;
+    border: 4px solid black;
+}
+#wrap div {
+    width: 100%;
+    height: 100px;
+}
+#wrap div:first-child{
+    background-color: dodgerblue;
+}
+#wrap div:nth-child(2){
+    background-color: fuchsia;
+}
+#wrap div:last-child{
+    background-color: gold;
+}

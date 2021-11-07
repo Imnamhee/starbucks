@@ -1,0 +1,17 @@
+span {
+    width: 100px;
+    height: 100px;
+    /* display: none; */
+    /* display: inline; */
+    /* display: inline-block; */
+    display: block;
+}
+#x {
+    background-color: khaki;
+}
+#y {
+    background-color: lightcoral;
+}
+#z {
+    background-color: mediumpurple;
+}

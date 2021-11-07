@@ -1,0 +1,48 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+header {
+    width: 100%;
+    position: relative;
+    top: 0;
+    float: left;
+}
+header > .header-title {
+    float: left;
+}
+header > .header-search-form {
+    position: relative;
+    left: 200px;
+}
+header .header-search-form input {
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    border-color: darkgrey;
+}
+header .header-search-form input:hover {
+    border-color: cornflowerblue;
+}
+header > .header-menu {
+    position: relative;
+    float: right;
+    display: flex;
+}
+header > .header-menu ul.outer-menu{
+    display: flex;
+}
+header .header-menu ul.outer-menu ul.inner-menu {
+    display: none;
+}
+
+#main-navigation {
+    position: absolute;
+    display: block;
+}

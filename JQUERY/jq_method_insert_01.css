@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: '굴림', sans-serif;
+  font-size: 12px;
+}
+#wrap {
+  width: 200px;
+  margin: 20px auto;
+}
+#wrap .page {
+  text-align: right;
+  margin-bottom: 5px;
+}
+#wrap .page .page_n {
+  display: inline-block;
+  margin-right: 10px;
+}
+#wrap .page button {
+  border: none;
+  background: #666;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  line-height: 1.5;
+  overflow: hidden;
+}
+#wrap .vis {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #505900;
+  overflow: hidden;
+}

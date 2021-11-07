@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+        body {
+            background-color: lavender;
+            font-family: "Nanum Gothic";
+        }
+
+        legend {
+            font-size: 25px;
+            text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4);
+        }
+
+        .id {
+            width: 130px;
+            letter-spacing: 5px;
+            text-align: end;
+        }
+
+        fieldset {
+            width: 370px;
+            margin: 5px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="./call.js" method="GET">
+        <fieldset>
+            <legend>&nbsp;&nbsp;회원가입&nbsp;&nbsp;</legend>
+            <table>
+                <tr>
+                    <td class="id">
+                        <div>
+                            <label for="id">아이디</label>
+                    </td>
+                    <td>
+                        <input type="text" id="id" name="id" placeholder="아이디를 입력하세요">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="id">
+                        <div>
+                            <label for="pw">비밀번호</label>
+                    </td>
+                    <td>
+                        <input type="password" id="pw" name="pw" placeholder="비밀번호를 입력하세요">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="id">
+                        <div>
+                            <label for="pw">비밀번호확인</label>
+                    </td>
+                    <td>
+                        <input type="password" id="pw" placeholder="비밀번호 확인">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <br></td>
+                </tr>
+                <tr>
+                    <td class="id">
+                        <div>
+                            <label for="name">이름</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" name="name">
+                    </td>
+                    </div>
+                </tr>
+                <tr>
+                    <td class="id">
+                        <div>
+
+                            <label for="gender">성별</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="gender" value="man">남자
+                        <input type="radio" id="gender" value="woman">여자
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="id">
+                        <div>
+                            <label for="birthday">생일</label>
+                    </td>
+                    <td>
+                        <input type="date" id="birthday" name="birthday">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="text" id="email" name="email" placeholder="본인확인(이메일)">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <br></td>
+                </tr>
+                <tr>
+                    <td class="id">
+                        <div>
+                            <select name="num">
+                                <option value="+82">+82</option>
+                                <option value="+1">+1</option>
+                            </select>
+                    </td>
+                    <td>
+                        <input type="text"><input type="button" value="인증">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="id"></td>
+                    <td>
+                        <input type="text" placeholder="인증번호"><input type="button" value="확인">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>

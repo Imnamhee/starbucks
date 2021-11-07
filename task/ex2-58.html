@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: url(../image/image/bg_grid.png)
+        }
+
+        p {
+            width: 600px;
+            height: 100px;
+            padding: 30px;
+            margin-bottom: 10px;
+            background: palegoldenrod;
+            border: 10px solid yellow;
+        }
+
+        .sizing {
+            box-sizing: border-box;
+        }
+
+        .sizing_list {
+            width: 500px;
+            margin-top: 20px;
+        }
+
+        .sizing_list li {
+            list-style-type: none;
+            float: left;
+            width: 25%;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+            background: rgba(0, 0, 100, 0.3);
+        }
+
+        .sizing_list li:nth-child(even) {
+            background: rgba(0, 0, 100, 0.15);
+        }
+
+        .sizing_list li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .sizing_list li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <p>It's impossible not only starting good but also keeping it firm!!</p>
+    <p class="sizing">It's impossible not only starting good but also keeping it firm!!</p>
+    <ul class="sizing_list">
+        <li><a href="#">Company</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Custommer</a></li>
+        <li><a href="#">Community</a></li>
+    </ul>
+</body>
+
+</html>

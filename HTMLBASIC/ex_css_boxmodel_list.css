@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../image/image/bg_grid.png);
+}
+p {
+    width: 600px;
+    height: 100px;
+    padding: 30px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 0, 0.5);
+    border: 10px solid rgba(0, 0, 0, 0.5);
+    resize: none;
+}
+.sizing {
+    box-sizing: border-box;
+    resize: both;
+    overflow: auto;
+}
+.sizing_list {
+    width:500px; margin-top: 20px;
+}
+.sizing_list li {
+    list-style-type: none;
+    float: left; width: 25%; padding: 10px;
+    box-sizing: border-box;
+    text-align: center; background: rgba(0,0,100,0.3);
+}
+.sizing_list li:nth-child(2n) {
+    background-color: rgba(0, 0, 100, 0.15);
+}
+.sizing_list li a {
+    text-decoration: none;
+}
+.sizing_list li a:hover {
+    text-decoration: underline;
+}

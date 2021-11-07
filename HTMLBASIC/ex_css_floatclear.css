@@ -1,0 +1,35 @@
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.drink {
+    padding: 30px;
+    background-color: lightblue;
+    border: 3px solid steelblue;
+}
+.drink::after {
+    /* content: "";
+    display: block;
+    clear: both; */
+}
+.drink>h1 {
+    margin: 0 0 10px;
+    text-align: center;
+}
+.drink>p {
+    box-sizing: border-box;
+    padding: 15px 25px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.greentea {
+    float: left;
+    width: 47%;
+    border: 3px solid darkseagreen;
+}
+.coffee {
+    float: right;
+    width: 47%;
+    border: 3px solid burlywood;
+}

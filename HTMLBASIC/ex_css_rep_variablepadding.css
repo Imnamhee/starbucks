@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding 0;
+}
+#wrap {
+    width:90%;
+    /* 960px */
+    height: 700px;
+    margin: 0 auto;
+    border: 4px solid black;
+}
+#wrap p {
+    width: 62.5%;
+    /* 600px / 960px * 100 */
+    padding: 50px;
+    /* 50px / 960px * 100 */
+    margin: 0 auto;
+    background-color: cornflowerblue;
+}

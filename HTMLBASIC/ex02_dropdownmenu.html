@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex02_dropdownmenu.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#mail">메일</a></li>
+        <li><a href="#cafe">카페</a></li>
+        <li><a href="#blog">블로그</a></li>
+        <li class="dropdown">
+            <a href="#shopping" class="dropbtn">쇼핑</a>
+            <div class="dropdown-content">
+                <a href="#">가전제품</a>
+                <a href="#">의류/악세사리</a>
+                <a href="#">가방/신발</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#new" class="dropbtn">뉴스</a>
+            <div class="dropdown-content">
+                <a href="#">정치</a>
+                <a href="#">경제</a>
+                <a href="#">생활/문화</a>
+            </div>
+        </li>
+        <li style="float:right"><a class="active" href="#login">로그인</a></li>
+    </ul>
+
+</body>
+
+</html>

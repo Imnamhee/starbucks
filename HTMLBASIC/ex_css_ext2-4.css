@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    font: 14px 'Malgun Gothic', '맑은고딕';
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#wrap {
+    background-color: palevioletred;
+}
+
+#wrap header {
+    background: lightblue;
+}
+
+#wrap header h1 {
+    float: left;
+    margin-right: 40px;
+}
+
+#wrap header .gnb {
+    float: left;
+    margin-top: 10px;
+}
+
+#wrap header .gnb li {
+    float: left;
+}
+
+#wrap header .gnb li a {
+    display: block;
+    width: 50px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#container .lnb {
+    float: left;
+    width: 20%;
+    background-color: lightpink;
+}
+
+#container .lnb li {}
+
+#container .lnb li a {
+    display: block;
+    padding: 5px 20px;
+}
+
+#container .content_area {
+    float: left;
+    width: 80%;
+    background-color: skyblue;
+}
+footer {
+    padding: 10px;
+    background-color: gainsboro;
+}
+footer p {
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+p {
+    color: pink;
+}
+
+/* #ctxt {
+    color: orange;
+} */
+p.atxt {
+    /* color: blue !important */
+    color: blue;
+}
+
+/* p.atxt.btxt {
+    color: blueviolet;
+} */
+p:first-child {
+    color: red;
+}

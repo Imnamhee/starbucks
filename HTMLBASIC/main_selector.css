@@ -1,0 +1,31 @@
+/* * {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: indianred;
+}
+.group{
+    color:seagreen;
+}
+#list2 {
+    color:red;
+} */
+div strong {
+    color: blue;
+}
+div > strong {
+    background-color: burlywood;
+}
+div, ul, li {
+    font-weight: bold;
+}
+/* 과목 배경색 변경 */
+div + div {
+    background-color: cadetblue;
+}
+/* 과목, 수강하신 과목은 HTML입니다의 font 색상을 pink */
+div div {
+    color:pink;
+}

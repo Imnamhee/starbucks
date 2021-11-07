@@ -1,0 +1,27 @@
+body>div {
+    width: 300px;
+    height: 300px;
+    border: 1px dashed black;
+    overflow: hidden;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.box:nth-child(1) {
+    background-color: salmon;
+}
+.box:nth-child(2) {
+    background-color: steelblue;
+    top: 100px;
+    left: 100px;
+}
+.box:nth-child(3) {
+    background-color: palegoldenrod;
+    top: 200px;
+    left: 200px;
+}

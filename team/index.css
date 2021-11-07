@@ -1,0 +1,101 @@
+body {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 33px 33px 33px;
+}
+
+/* logo 영역 */
+.logo {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    margin: auto;
+}
+.logo img {
+    width: 166.5px;
+    height: 63px;
+}
+
+/* sub-box 영역 */
+.sub-box {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    margin-top: 0;
+    line-height: 33px;
+}
+.sub-box ul {
+    display: flex;
+}
+.sub-box ul li {
+    position: relative;
+    
+}
+.sub-box ul li::before {
+    content: "";
+    width: 1px;
+    height: 20px;
+    background-color: #e5e5e5;
+    position: absolute;
+}
+.sub-box ul li:first-child::before {
+    display: none;
+}
+.sub-box ul li a {
+    text-decoration: none;
+    background-color: white;
+    font-size: 14px;
+    padding: 0 16px;
+    display: block;
+    color: #656565;
+}
+.sub-box ul li a:hover {
+    color: #000;
+}
+
+/* search-box 영역 */
+.search-box {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    margin: auto;
+    position: relative;
+}
+
+.search-box input {
+    width: 140px;
+    height: 25px;
+    right: 0px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    border-color: rgb(253, 148, 1);
+    color: #777;
+    font-size: 12px;
+    transition: width .4s;
+}
+
+.search-box button {
+    height: 25px;
+    /* bottom: 0; */
+    right: 0px;
+    transition: .4s;
+}

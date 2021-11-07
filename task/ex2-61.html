@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu li {
+            list-style-type: none;
+        }
+
+        .menu li a {
+            display: block;
+            width: 300px;
+            height: 20px;
+            padding: 10px;
+            margin-bottom: 2px;
+            background: #abc;
+            text-indent: 10px;
+            transition: width 1s, color 1s;
+            color: black;
+            text-decoration: none;
+        }
+
+        .menu li a:hover {
+            width: 450px;
+            color: #c00;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Moving menu</h3>
+    <ul class="menu">
+        <li><a href="#">Company</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Customer Support</a></li>
+        <li><a href="#">Community</a></li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li {
+            list-style-type: none;
+            margin: 5px;
+        }
+
+        .lnb li a {
+            display: block;
+            padding-left: 30px;
+            text-decoration: none;
+            font: 25px Times;
+            color: black;
+            background: url(../image/image/bg_sprite.png) no-repeat;
+            background-size: 26px 173px;
+        }
+
+        .lnb li:nth-child(1) a {
+            background-position: 0 0;
+        }
+
+        .lnb li:nth-child(2) a {
+            background-position: 0 -50px;
+        }
+
+        .lnb li:nth-child(3) a {
+            background-position: 0 -100px;
+        }
+
+        .lnb li:nth-child(4) a {
+            background-position: 0 -150px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="lnb">
+        <li><a href="#">Theater</a></li>
+        <li><a href="#">Secret Garden</a></li>
+        <li><a href="#">Concert Hall</a></li>
+        <li><a href="#">Animal Farm</a></li>
+    </ul>
+</body>
+
+</html>

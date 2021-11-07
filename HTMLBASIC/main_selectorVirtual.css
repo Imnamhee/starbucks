@@ -1,0 +1,53 @@
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: tomato;
+}
+
+a:hover {
+    color: yellowgreen;
+}
+
+a:active {
+    color: cyan;
+}
+
+p::first-letter {
+    font-size: 25px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+h1::before {
+    content: "☆";
+    color: red;
+}
+
+h1::after {
+    content: "★";
+    color: pink
+}
+
+/* 가상선택자와 가상요소 선택자만 사용 */
+/* 1. W를 red색상으로 */
+h2:first-letter {
+    color: red;
+}
+
+/* 2. 첫 라인 HTML의 배경색을 회색으로 */
+li:first-child {
+    background-color: gray;
+}
+
+/* 3. 짝수 행의 배경색을 임의로 설정  */
+li:nth-child(even) {
+    background-color: lightpink;
+}
+
+/* 4. 마우스가 올라가면 글자색을 임의로 바꾸기 */
+li:hover {
+    color: magenta;
+}

@@ -1,0 +1,23 @@
+.box {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+}
+.box:nth-child(1) {
+    background-color: salmon;
+    left: 10px;
+    top: 10px;
+    z-index: 3;
+}
+.box:nth-child(2) {
+    background-color: steelblue;
+    left: 50px;
+    top: 50px;
+    z-index: 2;
+}
+.box:nth-child(3) {
+    background-color: palegoldenrod;
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+}

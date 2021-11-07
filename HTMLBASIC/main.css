@@ -1,0 +1,26 @@
+a[target="_blank"] {
+    color: chartreuse;
+}
+[class^="first"] {
+    color: red;
+}
+input[type="text"] {
+    width: 100px;
+    margin-bottom: 10px;
+    background-color: gainsboro;
+}
+input[type="button"] {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+label[for="id"] {
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+}
+[class="lbg"] {
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+}

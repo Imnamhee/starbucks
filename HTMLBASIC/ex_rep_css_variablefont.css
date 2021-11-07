@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    /* 1em - 16px, 100%, 1rem */
+}
+#vfont {
+    /* font-size: 6em; */
+    /* 6em = 6 * 16px = 96px */
+    font-size: 6rem;
+}
+#vfont p {
+    /* font-size: 0.66666666667em; */
+    /* 64px / 96px */
+    font-size: 4rem;
+}

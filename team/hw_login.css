@@ -1,0 +1,284 @@
+* {
+    padding: 0 10px;
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* 로고 왼쪽 정렬 */
+header {
+    background-color: gainsboro;
+    width: 100%;
+}
+header .container .logo {
+    margin-left: 30%;
+    margin-top: 20px;
+    float: left;
+    height: 90px;
+}
+.logo img {
+    width: 166.5px;
+    height: 63px;
+}
+
+/* 네비게이션 밑줄 */
+nav {
+    margin: 0 auto;
+    width: 90%;
+    border-top: solid 1px rgb(243, 233, 233);;
+    border-bottom: solid 1px rgb(243, 233, 233);
+}
+
+/* floate clear */
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* 사이드 메뉴 스타일 */
+.sidemenu {
+    float: right;
+    list-style-type: none;
+    text-align: right;
+}
+.sidemenu li {
+    float: left;
+}
+.sidemenu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #777;
+    padding: 20px 35px;
+}
+
+/* 메인 메뉴 스타일 */
+.mainMenu {
+    list-style-type: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.mainMenu li {
+    text-align: center;
+    display: inline-block;
+}
+.mainMenu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+.mainMenu li a:hover {
+    color: rgb(253, 148, 1);
+}
+
+/* contents 영역 */
+#contents {
+    width: 100%;
+    text-align: center;
+}
+#contents div {
+    width: 20%;
+    height: 400px;
+    display: inline-block;
+    border: 1px rgb(253, 148, 1) solid;
+    margin: 20px auto;
+}
+.list {
+    width: 90%;
+    height: 100px;
+}
+
+/* h1 태그 스타일 */
+#contents div h1 {
+    text-align: left;
+    display: block;
+    margin: 10px 50px 30px 50px;
+    padding: 20px;
+    border-bottom: 2px solid;
+}
+
+/* 컨텐츠 박스  */
+#contents div div .list{
+    list-style-type: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.list li {
+    text-align: center;
+}
+.list a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+
+
+.clear {
+    content: "";
+    display: block;
+    clear: both;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+footer .top {
+    border-top: 1px solid rgb(243,233,233);
+    border-bottom: 1px solid rgb(243, 233, 233);
+}
+footer .top div span {
+    display: inline-block;
+}
+footer .container strong {
+    display: block;
+    margin: 5px 0px;
+}
+footer .container .copyright {
+    margin: 5px 0px;
+}
+/* .container {
+    background-color: white;
+}
+
+.container .logo {
+    display: inline-block;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container .sidemenu li {
+    display: inline-block;
+}
+
+.sidemenu li a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(0, 189, 57);
+}
+header {
+    background-color: white;
+}
+nav .container {
+    background-color: white;
+}
+
+.container .leftMenu li {
+    float: left;
+}
+
+.container .leftMenu li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.dropmenu {
+    display: none;
+}
+
+.leftMenu li a:hover {
+    color: rgb(0, 189, 57);
+}
+
+.rightMenu li {
+    float: right;
+}
+
+.rightMenu li a {
+    text-decoration: none;
+    color: rgb(0, 189, 57);
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.sidemenu, .leftMenu, .rightMenu {
+    font-weight: bold;
+}
+
+
+#section2 {}
+
+#section2 .container {
+    background-color: gainsboro;
+    text-align: center;
+}
+
+.loginBox {
+    padding: 50px;
+    margin: 50px auto;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+}
+
+.box {
+    width: 800px;
+    height: 300px;
+    display: inline-block;
+}
+
+.box .logo {
+    width: 800px;
+    padding: 0px 50px;
+}
+.social {
+    padding: 0;
+}
+h1 {
+    text-align: left;
+}
+input {
+    width: 700px;
+    height: 30px;
+    margin: 10px 10px;
+}
+button {
+    width: 710px;
+    height: 40px;
+    margin: 5px 0px;
+    color: white;
+    background-color: rgb(0, 189, 57);
+    border: none;
+}
+
+.box .facebook {
+    background-color: rgb(59, 89, 153);
+}
+
+.box .twitter {
+    background-color: rgb(29, 161, 243);
+}
+
+.box .naver {
+    background-color: rgb(0, 189, 57);
+}
+
+.box .kakao {
+    background-color: rgb(255, 255, 19);
+    color: black;
+}
+
+p button {
+    background-color: white;
+    color: rgb(0, 189, 57);
+    border: 1px solid rgb(0, 189, 57);
+}
+.alert p {
+    text-align: center;
+}
+.box, .clear, .top {
+    border: 1px solid gainsboro;
+} */

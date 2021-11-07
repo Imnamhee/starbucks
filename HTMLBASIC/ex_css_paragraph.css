@@ -1,0 +1,36 @@
+ul {
+    width: 200px;
+    border: 1px solid blue;
+}
+
+.wrapping {
+    /* word-wrap: break-word; */
+    /* word-break: normal; */
+    word-break: keep-all;
+}
+
+p {
+    width: 400px;
+    border: 1px solid black;
+}
+
+.white1 {
+    white-space: normal;
+}
+
+.white2 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.white3 {
+    white-space: pre;
+}
+
+.white4 {
+    white-space: pre-wrap;
+}
+
+.white5 {
+    white-space: pre-line;
+}

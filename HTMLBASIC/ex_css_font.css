@@ -1,0 +1,29 @@
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+
+}
+
+p {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid;
+    box-sizing: border box;
+    line-height: 1.4;
+    font-size: 18px;
+    text-indent: 50px;
+}
+
+a {
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: cornflowerblue;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 100px;
+}

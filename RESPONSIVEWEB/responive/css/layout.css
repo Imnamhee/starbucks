@@ -1,0 +1,428 @@
+/* 모바일용 */
+/* 기본 CSS */
+#wrap{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#wrap section{
+    box-sizing: border-box;
+}
+
+.info_section{
+    order: 1;
+    width: 100%;
+    background-color: #2ecc71;
+    border-bottom: 1px solid #39d67c;
+}
+
+.info_list { 
+    display: flex;
+}
+
+.info_list li {
+    width: 25%;
+    text-align: center;
+}
+.info_list li a {
+    display: block;
+    padding: 15px 0;
+    padding: 0.938rem 0;
+}
+
+/* header css */
+.header{
+    
+    display: flex;
+    order: 2;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+
+}
+.logo{
+    order: 1;
+    width: 100%;
+    padding: 30px;
+    padding: 1.875rem 0;
+    font-size: 1.888em;
+    font-size: 1.888rem;
+    line-height: 21px;
+    line-height: 1.313rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #2ecc71;
+    text-shadow: 0px 1px 1px #25ab5e;
+}
+.nav{
+    order: 2;
+    width: 100%;
+}
+.gnb{
+    display: none;
+}
+.gnb li{
+    display: flex;
+    background-color: #2c3e50;
+}
+.gnb li a{
+    width: 80%;
+    padding: 20px;
+    padding: 1.250rem;
+    font-size: 0.938em;
+    font-size: 0.938rem;
+    text-indent: 20px;
+    text-indent: 1.240rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.gnb li span{
+    width: 20%;
+    text-decoration: -99999px;
+    background: url(../images/s_images/sub_menu_toggle_btn.png) center no-repeat;
+    cursor: pointer;
+}
+.menu_toggle_btn{
+    display: block;
+    width: 30px;
+    width: 1.875rem;
+    height: 30px;
+    height: 1.875rem;
+    position: absolute;
+    top: 10px;
+    top: 0.625rem;
+    right: 10px;
+    right: 0.625rem;
+    text-indent: -9999px;
+    background:url(../images/s_images/menu_toggle_btn.png)no-repeat;
+}
+
+/* slider_section */
+.slider_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    order: 3;
+    height: 300px;
+    height: 18.750rem;
+    background: url(../images/p_images/slider_01.jpg) no-repeat;
+}
+.slider_section span{ 
+    width: 34px;
+    width: 2.215rem;
+    height: 39px;
+    height: 2.438rem;
+    text-indent: -9999px;
+    background: url(../images/s_images/slider_arrow.png) no-repeat;
+    cursor: pointer;
+}
+span.prev_btn{
+    margin-left: -10px;
+    margin-left: -0.625rem;
+    background-position: 0 0;
+}
+span.next_btn{
+    margin-right: -10px;
+    margin-right: -0.625rem;
+    background-position: -34px 0;
+}
+
+/* latest_post_section */
+.latest_post_section{
+    order: 4;
+    background-color: #ffc40f;
+    text-shadow: 0px 1px 1px #b98e0b;
+}
+.popular_post_section{
+    order: 5;
+    background-color: #a660c2;
+    text-shadow: 0px 1px 1px #714185;
+}
+
+.latest_post_section, .popular_post_section{
+    padding: 40px 12.5%;
+    padding: 2.500rem 12.5%;
+}
+
+.title{
+    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
+    font-size: 1.188em;
+    font-size: 1.188rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.latest_post_section li, .popular_post_section li{
+    margin-top: 15px;
+    margin-top: 0.938rem;
+    padding-left: 14px;
+    padding-left: 0.875rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: url(../images/s_images/post_circle_icon.png) left center no-repeat;
+}
+
+.latest_post_section:first-child,
+.popular_post_section:first-child{
+    margin-top: 0;
+}
+
+/* gallery_section */
+.gallery_section{
+    order: 6;
+    padding-left: 40px 12.5%;
+    padding-left: 3.124rem 12.5%;
+    text-align: center;
+    background: #e65d5d;
+    text-shadow: 0px 1px 1px #c43434;
+}
+.gallery_section img{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 3px;
+    text-shadow: 0px 1px 1px #c43434;
+}
+.gallery_list li:nth-child(2){
+    margin-top: 3px;
+    margin-top: 1.875rem;
+}
+.gallery_list li figcaption{
+    margin-top: 3px;
+    margin-top: 1.875rem;
+    font-size: 1.188em;
+    font-size: 1.188rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* rankup_section */
+.rankup_section{
+    order: 7;
+    padding: 40px 12%;
+    padding: 2.500rem 12.5%;
+    background: #219af7;
+    text-shadow: 0px 1px 1px #1974ba;
+}
+.rankup_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.rankup_list li{
+    width: 47.91%;
+    /* 115px/240px */
+    margin-top: 15px;
+    margin-top: 0.938rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.rankup_list li:first-child,
+.rankup_list li:nth-child(2){
+margin-top: 0;
+}
+.rankup_list li a{
+    display: block;
+    padding: 10px 0;
+    padding: 0.625rem 0;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+/* banner_section */
+
+.banner_section{
+    order: 8;
+}
+.banner_box_01{
+    background-color: #e6567e;
+}
+.banner_box_01 a{
+    display: block;
+    padding: 30px 0;
+    padding: 1.875rem 0;
+    text-align: center;
+}
+.banner_box_02{
+    background-color: #c33968;
+}
+.banner_list{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 12.5%;
+    padding: 1.875rem 12.5%;
+}
+
+/* social_section */
+.social_section{
+    order: 9;
+    padding: 24px 12.5%;
+    padding: 1.5rem 12.5%;
+    background: #fff;
+}
+.social_list{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer */
+
+.footer{
+    order: 10;
+    width: 100%;
+    background-color: #474747;
+}
+.footer p{
+    padding: 20px;
+    padding: 1.250rem;
+    font-size: 0.813em;
+    font-size: 0.813rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0px 1px 1px #191919;
+
+}
+
+/* 태블릿 용 */
+@media all and (min-width:768px){
+    #wrap{
+        display: flex;
+        flex-flow: wrap;
+    }
+    .info_section {
+        order: 1;
+        width: 100%;
+    }
+    .logo {
+        order: 2;
+        width: 20%;
+    }
+    .nav {
+        order: 3;
+        width: 80%;
+    }
+    .slider_section {
+        order: 4;
+        width: 60%;
+        height: 400px;
+        height: 25.00rem;
+    }
+    .rankup_section {
+        order: 5;
+        width: 40%;
+        height: 400px;
+        height: 25.00rem;
+        padding: 5%
+    }
+    .latest_post_section {
+        order: 6;
+        width: 40%;
+        padding: 5%
+    }
+    .popular_post_section {
+        order: 7;
+        width: 40%;
+        padding: 5%
+    }
+    .social_section {
+        order: 8;
+        width: 20%;
+        padding: 12px 6.25%;
+        padding: 0.75rem 6.25%;
+    }
+    .social_list {
+        flex-direction: column;
+    }
+    .gallery_section {
+        order: 9;
+        width: 70%;
+        padding-left: 20px 6.25%;
+        padding-left: 1.562rem 6.25%;
+    }
+    .gallery_section img {
+        width: 50%;
+    }
+    
+    .gallery_list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .banner_section {
+        order: 10;
+        width: 30%;
+    }
+}
+
+
+/* 피씨용 */
+@media all and (min-width:968px){
+    #wrap{
+        display: flex;
+        flex-flow: wrap;
+    }
+    .logo {
+        order: 1;
+        width: 20%;
+    }
+    .info_section {
+        order: 2;
+        width: 100%;
+    }
+    .slider_section {
+        order: 3;
+        width: 40%;
+        height: 400px;
+        height: 25.00rem;
+    }
+    .gallery_section {
+        order: 4;
+        width: 30%;
+        height: 400px;
+        height: 25.00rem;
+        padding-left: 20px 6.25%;
+        padding-left: 1.562rem 6.25%;
+    }
+    .gallery_list {
+        flex-direction: column;
+    }
+    .rankup_section {
+        order: 5;
+        width: 30%;
+        height: 400px;
+        height: 25.00rem;
+        padding: 5%;
+    }
+    .rankup_list li a {
+        border: none;
+    }
+    .latest_post_section {
+        order: 6;
+        width: 30%;
+        padding: 5%;
+    }
+    .popular_post_section {
+        order: 7;
+        width: 30%;
+        padding: 5%;
+    }
+    .banner_section {
+        order: 8;
+        width: 25%;
+    }
+    .social_section {
+        order: 9;
+        width: 15%;
+        padding: 12px 6.25%;
+        padding: 0.75rem 6.25%;
+    }
+}

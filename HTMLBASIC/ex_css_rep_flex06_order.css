@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* flexbox */
+#wrap {
+    display: flex;
+    width: 90%;
+
+    height: 500px;
+    margin: 0 auto;
+    border: 4px solid black;
+}
+
+/* flex item */
+#wrap div {
+    width: 33.33%;
+}
+
+#wrap div:first-child {
+    order: 3;
+    background-color: dodgerblue;
+}
+
+#wrap div:nth-child(2) {
+    order: 1;
+    background-color: fuchsia;
+}
+
+#wrap div:last-child {
+    order: 2;
+    background-color: gold;
+}

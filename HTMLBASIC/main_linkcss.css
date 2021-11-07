@@ -1,0 +1,5 @@
+/* import 방식 */
+@import url("./sub.css");
+body{
+    background-color: darkseagreen;
+}

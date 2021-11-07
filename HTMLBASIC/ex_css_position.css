@@ -1,0 +1,50 @@
+body {
+    height: 300px;
+}
+
+.wrap {
+    width: 400px;
+    height: 300px;
+    background-color: tomato;
+    position: static;
+    position: relative;
+}
+
+.container {
+    width: 300px;
+    background-color: steelblue;
+    /* 2. position:absolute 부모로 인지시켜주는 역할 */
+    /* position: relative; */
+}
+
+.container .item {
+    border: 4px dashed red;
+    background-color: pink;
+}
+
+.container .item:nth-child(1) {
+    width: 100px;
+    height: 100px;
+}
+
+.container .item:nth-child(2) {
+    width: 140px;
+    height: 70px;
+    /* 1. position:relative */
+    /* position: relative;
+    top: 30px;
+    left: 200px; */
+    /* 2. position:absolute */
+    /* position: absolute;
+    right: 10px;
+    bottom: 10px; */
+    /* 3. position:fixed */
+    position: fixed;
+   bottom: 30px;
+   right: 60px;
+}
+
+.container .item:nth-child(3) {
+    width: 70px;
+    height: 140px;
+}
