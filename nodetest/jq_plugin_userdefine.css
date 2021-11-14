@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+body {
+  font: 14px Malgun Gothic, '맑은고딕', sans-serif;
+  color: #555;
+}
+h1 {
+  font-size: 1em;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JQuery</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- <script src="../jquery-3.6.0.min.js"></script> -->
+    <link rel="stylesheet" href="./jq_plugin_swiper_01.css" />
+    <script defer src="./jq_plugin_swiper_01.js"></script>
+  </head>
+
+  <body>
+    <header>헤더</header>
+    <div class="visual">
+      <!-- Slider main container -->
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <a href="#"><img src="./images/visual1.jpg" lat="HTML" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="./images/visual2.jpg" lat="CSS" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="./images/visual3.jpg" lat="JavaScript" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="./images/visual4.jpg" lat="jQuery" /></a>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </body>
+</html>
